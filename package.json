@@ -1,7 +1,7 @@
 {
   "name": "@chessify/sdk",
-  "version": "1.0.0",
-  "description": "TypeScript SDK for Chessify — onchain chess games and wagers on Stacks",
+  "version": "1.0.1",
+  "description": "Production-grade SDK for Chessify Protocol. Provides core bindings for onchain chess games, wagers, and NFT rewards on Stacks.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -13,18 +13,35 @@
     "prepare": "npm run build"
   },
   "keywords": [
-    "chessify",
-    "chess",
+    "web3",
+    "blockchain",
     "stacks",
-    "games",
+    "production-ready",
+    "chess",
+    "chessify",
     "wager",
     "nft",
+    "bitcoin",
     "sdk",
-    "web3",
-    "bitcoin"
+    "gamefi"
   ],
-  "author": "Your Name <your@email.com>",
+  "author": {
+    "name": "jadonamite",
+    "url": "https://github.com/jadonamite",
+    "email": "jadonamite@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FundX-Grid/chessify-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FundX-Grid/chessify-sdk/issues"
+  },
+  "homepage": "https://github.com/FundX-Grid/chessify-sdk#readme",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "devDependencies": {
     "typescript": "^5.9.3"
   },
