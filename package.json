@@ -1,5 +1,5 @@
 {
-  "name": "@chessify/sdk",
+  "name": "@jadonamite/chessify-sdk",
   "version": "1.0.2",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -53,6 +53,6 @@
     "@stacks/transactions": "^6.17.0"
   },
   "dependencies": {
-    "@fundxgrid/stacks-core": "file:../stacks-core"
+    "@jadonamite/stacks-core": "file:../stacks-core"
   }
 }
