@@ -1,6 +1,6 @@
 {
   "name": "@chessify/sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Production-grade SDK for Chessify Protocol. Provides core bindings for onchain chess games, wagers, and NFT rewards on Stacks.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -32,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FundX-Grid/chessify-sdk.git"
+    "url": "git+https://github.com/jadonamite/chessify-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/FundX-Grid/chessify-sdk/issues"
+    "url": "https://github.com/jadonamite/chessify-sdk/issues"
   },
-  "homepage": "https://github.com/FundX-Grid/chessify-sdk#readme",
+  "homepage": "https://github.com/jadonamite/chessify-sdk#readme",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
