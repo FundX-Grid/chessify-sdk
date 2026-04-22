@@ -1,6 +1,7 @@
 # @chessify/sdk
 
-[![npm version](https://img.shields.io/npm/v/@chessify/sdk.svg)](https://www.npmjs.com/package/@chessify/sdk)
+[![npm downloads](https://img.shields.io/npm/dm/@jadonamite/chessify-sdk)](https://www.npmjs.com/package/@jadonamite/chessify-sdk)
+[![npm version](https://img.shields.io/npm/v/@jadonamite/chessify-sdk.svg)](https://www.npmjs.com/package/@jadonamite/chessify-sdk)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](https://www.typescriptlang.org/)
 
 > Production-ready TypeScript SDK for Chessify — play chess, place wagers, and join tournaments on the Stacks blockchain.
@@ -10,7 +11,7 @@
 This SDK requires the `@fundxgrid/stacks-core` utility package.
 
 ```bash
-npm install @chessify/sdk @fundxgrid/stacks-core
+npm install @jadonamite/chessify-sdk @jadonamite/stacks-core
 ```
 
 ## 🚀 Quick Start
@@ -18,7 +19,7 @@ npm install @chessify/sdk @fundxgrid/stacks-core
 Initialize the client with your network configuration to interact with the Chessify contracts.
 
 ```typescript
-import { ChessifyClient } from '@chessify/sdk';
+import { ChessifyClient } from '@jadonamite/chessify-sdk';
 
 const client = new ChessifyClient({ network: 'mainnet' });
 
