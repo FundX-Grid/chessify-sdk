@@ -16,15 +16,16 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
+          registry-url: 'https://registry.npmjs.org/'
 
-      - name: Install SDKs
+      - name: Install SDKs from npmjs.com
         run: |
           npm install @jadonamite/stacks-core
           npm install @jadonamite/chessify-sdk
           npm install @jadonamite/fundxagon-sdk
 
       - name: Build
-        run: npm run build
+        run: npm run build --if-present
 
       - name: Test
         run: npm test --if-present
