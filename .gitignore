@@ -18,3 +18,4 @@ npm-debug.log*
 # OS generated files (macOS/Windows noise)
 .DS_Store
 Thumbs.db
+.npmrc
