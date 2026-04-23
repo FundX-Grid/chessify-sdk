@@ -1,9 +1,6 @@
 {
   "name": "@jadonamite/chessify-sdk",
   "version": "1.0.3",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "description": "Production-grade SDK for Chessify Protocol. Provides core bindings for onchain chess games, wagers, and NFT rewards on Stacks.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -53,6 +50,6 @@
     "@stacks/transactions": "^6.17.0"
   },
   "dependencies": {
-    "@jadonamite/stacks-core": "file:../stacks-core"
+    "@jadonamite/stacks-core": "^1.0.3"
   }
 }

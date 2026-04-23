@@ -19,9 +19,9 @@ jobs:
 
       - name: Install SDKs (Force npmjs.com)
         run: |
-          npm install @jadonamite/stacks-core --registry=https://registry.npmjs.org/
-          npm install @jadonamite/chessify-sdk --registry=https://registry.npmjs.org/
-          npm install @jadonamite/fundxagon-sdk --registry=https://registry.npmjs.org/
+          npm install @jadonamite/stacks-core --registry=https://registry.npmjs.org/ --no-userconfig
+          npm install @jadonamite/chessify-sdk --registry=https://registry.npmjs.org/ --no-userconfig
+          npm install @jadonamite/fundxagon-sdk --registry=https://registry.npmjs.org/ --no-userconfig
 
       - name: Build
         run: npm run build --if-present
