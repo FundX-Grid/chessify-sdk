@@ -1,4 +1,4 @@
-import { StacksClient } from '@fundxgrid/stacks-core';
+import { StacksClient } from '@jadonamite/stacks-core';
 import { Wager } from '../types';
 
 export class WagerModule {

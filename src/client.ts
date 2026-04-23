@@ -1,4 +1,4 @@
-import { StacksClient } from '@fundxgrid/stacks-core';
+import { StacksClient } from '@jadonamite/stacks-core';
 import { ChessifyConfig } from './types';
 import { GameModule } from './modules/games';
 import { WagerModule } from './modules/wagers';

@@ -1,4 +1,4 @@
-import { NetworkType } from '@fundxgrid/stacks-core';
+import { NetworkType } from '@jadonamite/stacks-core';
 
 export interface ChessifyConfig {
   network: NetworkType;

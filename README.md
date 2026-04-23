@@ -1,4 +1,4 @@
-# @chessify/sdk
+# @jadonamite/chessify-sdk
 
 [![npm downloads](https://img.shields.io/npm/dm/@jadonamite/chessify-sdk)](https://www.npmjs.com/package/@jadonamite/chessify-sdk)
 [![npm version](https://img.shields.io/npm/v/@jadonamite/chessify-sdk.svg)](https://www.npmjs.com/package/@jadonamite/chessify-sdk)
@@ -8,7 +8,7 @@
 
 ## 📦 Installation
 
-This SDK requires the `@fundxgrid/stacks-core` utility package.
+This SDK requires the `@jadonamite/stacks-core` utility package.
 
 ```bash
 npm install @jadonamite/chessify-sdk @jadonamite/stacks-core
