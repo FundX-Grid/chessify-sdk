@@ -39,6 +39,10 @@
   },
   "homepage": "https://github.com/jadonamite/chessify-sdk#readme",
   "license": "MIT",
+  "publishConfig": {
+  "access": "public",
+  "registry": "https://registry.npmjs.org/"
+  },
   "engines": {
     "node": ">=18.0.0"
   },
@@ -50,6 +54,6 @@
     "@stacks/transactions": "^6.17.0"
   },
   "dependencies": {
-    "@jadonamite/stacks-core": "^1.0.3"
+    "@jadonamite/stacks-core": "^1.0.4"
   }
 }
